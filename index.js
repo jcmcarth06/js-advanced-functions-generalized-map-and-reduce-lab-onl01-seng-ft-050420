@@ -5,7 +5,7 @@ const map = (arr, callback) => {
   return newArr;
 }
 
-const reduce = (array, reducer, initialValue = arrat[0]) => {
+const reduce = (array, reducer, initialValue = array[0]) => {
   let value = initialValue;
 
   if (value != array[0]) {
