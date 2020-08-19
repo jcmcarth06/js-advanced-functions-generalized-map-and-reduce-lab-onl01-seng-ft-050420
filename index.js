@@ -7,4 +7,10 @@ const map = (arr, callback) => {
 
 const reduce = (arrat, reducer, initialValue = arrat[0]) => {
   let value = initialValue;
+
+  if (value != array[0]) {
+    array.forEach(e => {
+      value = reducer(value, e)
+    })
+  }
 }
