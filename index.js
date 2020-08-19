@@ -4,3 +4,7 @@ const map = (arr, callback) => {
   arr.forEach( e => newArr.push(callback(e)));
   return newArr;
 }
+
+const reduce = (arrat, reducer, initialValue = arrat[0]) => {
+  let value = initialValue
+}
