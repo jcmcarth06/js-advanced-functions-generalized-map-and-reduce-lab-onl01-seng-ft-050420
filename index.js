@@ -12,5 +12,12 @@ const reduce = (arrat, reducer, initialValue = arrat[0]) => {
     array.forEach(e => {
       value = reducer(value, e)
     })
+    return value;
+  } else {
+        for (let i = 1; i <array.length; i++) {
+      let e = array[i]
+      value = reducer(value, e)
+    }
   }
+  return value;
 }
