@@ -6,5 +6,5 @@ const map = (arr, callback) => {
 }
 
 const reduce = (arrat, reducer, initialValue = arrat[0]) => {
-  let value = initialValue
+  let value = initialValue;
 }
