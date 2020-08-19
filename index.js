@@ -20,4 +20,4 @@ const reduce = (arrat, reducer, initialValue = arrat[0]) => {
     }
   }
   return value;
-}
+};
